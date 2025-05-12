@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from functions.notenrechner import display_sidebar
 
-st.title("Notenrechner - kestmo V2")
+st.title("Notenrechner - V2")
 #st.sidebar.page_link('Start.py', label='Startseite')
 #st.sidebar.page_link('pages/1_Dashboard.py', label='Dashboard')
 #st.sidebar.page_link('pages/2_Modulgruppen-Uebersicht.py', label='Modulgruppen-Uebersicht')
