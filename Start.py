@@ -14,8 +14,8 @@ Features:
 ✔️ Durchschnittswerte pro Modulgruppe (ECTS-basiert)   
 ✔️ Wunschnotenrechner (in Planung): Finde heraus, welche Noten du brauchst, um dein Wunschziel zu erreichen!''')
 
-st.write('''Diese App wurde von folgenden Studierenden der ZHAW LSFM entwickelt:
-- **Alessia Molignini**
-- **Noëlle Keel**
-- **Sara Stettler**
+#st.write('''Diese App wurde von folgenden Studierenden der ZHAW LSFM entwickelt:
+#- **Alessia Molignini**
+#- **Noëlle Keel**
+#- **Sara Stettler**
 ''')
