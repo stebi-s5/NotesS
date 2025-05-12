@@ -9,8 +9,8 @@ st.markdown('''Die clevere Noten-App für BMLD-Studierende!
 Behalte jederzeit den Überblick über deine Leistungen: Der Notenrechner zeigt dir alle bisherigen Noten, berechnet deinen aktuellen Gesamtschnitt sowie die Durchschnittswerte je Modulgruppe - natürlich inklusive ECTS-Gewichtung.
 ''')
 
-st.html('''Features:
-            <ul>
+st.html('''<strong>Features:</strong>
+            <ul style="margin-left: 0px;">
                 <li>Übersichtliche Darstellung aller Noten</li>
                 <li>Automatische Berechnung des Gesamtdurchschnitts</li>
                 <li>Durchschnittswerte pro Modulgruppe (ECTS-basiert)</li>   
