@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
-from functions.notenrechner import display_sidebar
+#import pandas as pd
+#from functions.notenrechner import display_sidebar
 
 st.title("Notenrechner - V2")
 st.sidebar.page_link('Start.py', label='Startseite')
