@@ -172,7 +172,7 @@ grundlagenpraktika = {
     'Gesellschaft, Kultur und Gesundheit': {
         'ects': 3}}
 
-data_manager = DataManager(fs_protocol='webdav', fs_root_folder="Institution/kestmo_App")
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="Institution/kestmo_App2")
 
 
 def manage_pruefungen(fach_name, session_state_key, spalten):
