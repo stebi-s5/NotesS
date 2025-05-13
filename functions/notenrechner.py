@@ -269,7 +269,7 @@ def manage_pruefungen(fach_name, session_state_key, spalten):
             st.write('**Maximale ECTS des Moduls**')
         with col2:
             st.write(ects)
-        st.info('Noch keine Pr&uuml;fungen eingetragen. Bitte eine Pr&uuml;fung hinzuf&uuml;gen.')
+        st.info('Noch keine Prüfungen eingetragen. Bitte eine Prüfung hinzuf&uuml;gen.')
 
     with st.form(key=f'form_{user_key}'):
         col1, col2, col3, col4 = st.columns([1.2, 0.8, 1, 0.8])
