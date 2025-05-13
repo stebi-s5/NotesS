@@ -199,7 +199,7 @@ def manage_pruefungen(fach_name, session_state_key, spalten):
 
     gesamt_gewichtung = df_gewichtete_note['Gewichtung'].sum()
     if gesamt_gewichtung > 100:
-        st.warning('Die Gesamtgewichtung &uuml;berschreitet 100%. Bitte die Eingaben &uuml;berpr&uuml;fen.')
+        st.warning('Die Gesamtgewichtung überschreitet 100%. Bitte die Eingaben überprüfen.')
     if 0 < gesamt_gewichtung <= 100:
         st.session_state[gewichtete_note_key] = (df_gewichtete_note['Note'] * 
                                                  df_gewichtete_note['Gewichtung']).sum() / gesamt_gewichtung
